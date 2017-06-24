@@ -12,6 +12,12 @@
 		39F22E461EFEF2AA00587AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F22E441EFEF2AA00587AFA /* Main.storyboard */; };
 		39F22E481EFEF2AA00587AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F22E471EFEF2AA00587AFA /* Assets.xcassets */; };
 		39F22E4B1EFEF2AA00587AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F22E491EFEF2AA00587AFA /* LaunchScreen.storyboard */; };
+		39F22E541EFEFDEB00587AFA /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F22E531EFEFDEB00587AFA /* Account.swift */; };
+		39F22E561EFF040F00587AFA /* Commodity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F22E551EFF040F00587AFA /* Commodity.swift */; };
+		39F22E581EFF046600587AFA /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F22E571EFF046600587AFA /* Transaction.swift */; };
+		39F22E5A1EFF049D00587AFA /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F22E591EFF049D00587AFA /* Money.swift */; };
+		39F22E5C1EFF0A8900587AFA /* Split.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F22E5B1EFF0A8900587AFA /* Split.swift */; };
+		39F22E601EFF0F5500587AFA /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F22E5F1EFF0F5500587AFA /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		39F22E471EFEF2AA00587AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39F22E4A1EFEF2AA00587AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39F22E4C1EFEF2AA00587AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F22E531EFEFDEB00587AFA /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		39F22E551EFF040F00587AFA /* Commodity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commodity.swift; sourceTree = "<group>"; };
+		39F22E571EFF046600587AFA /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		39F22E591EFF049D00587AFA /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		39F22E5B1EFF0A8900587AFA /* Split.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Split.swift; sourceTree = "<group>"; };
+		39F22E5F1EFF0F5500587AFA /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		39F22E3F1EFEF2AA00587AFA /* cash */ = {
 			isa = PBXGroup;
 			children = (
+				39F22E521EFEF39800587AFA /* Models */,
 				39F22E401EFEF2AA00587AFA /* AppDelegate.swift */,
 				39F22E421EFEF2AA00587AFA /* ViewController.swift */,
 				39F22E441EFEF2AA00587AFA /* Main.storyboard */,
@@ -62,6 +75,19 @@
 				39F22E4C1EFEF2AA00587AFA /* Info.plist */,
 			);
 			path = cash;
+			sourceTree = "<group>";
+		};
+		39F22E521EFEF39800587AFA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				39F22E531EFEFDEB00587AFA /* Account.swift */,
+				39F22E551EFF040F00587AFA /* Commodity.swift */,
+				39F22E591EFF049D00587AFA /* Money.swift */,
+				39F22E571EFF046600587AFA /* Transaction.swift */,
+				39F22E5B1EFF0A8900587AFA /* Split.swift */,
+				39F22E5F1EFF0F5500587AFA /* Book.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F22E601EFF0F5500587AFA /* Book.swift in Sources */,
+				39F22E5C1EFF0A8900587AFA /* Split.swift in Sources */,
+				39F22E5A1EFF049D00587AFA /* Money.swift in Sources */,
 				39F22E431EFEF2AA00587AFA /* ViewController.swift in Sources */,
 				39F22E411EFEF2AA00587AFA /* AppDelegate.swift in Sources */,
+				39F22E541EFEFDEB00587AFA /* Account.swift in Sources */,
+				39F22E561EFF040F00587AFA /* Commodity.swift in Sources */,
+				39F22E581EFF046600587AFA /* Transaction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
